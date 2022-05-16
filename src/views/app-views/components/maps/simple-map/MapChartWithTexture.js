@@ -7,7 +7,7 @@ import {
   Line,
   Sphere
 } from "react-simple-maps";
-import { PatternLines } from "@vx/pattern";
+// import { PatternLines } from "@vx/pattern";
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
@@ -83,7 +83,7 @@ export class MapChartWithTexture extends Component {
 					scale: 80
 				}}
 			>
-				<PatternLines
+				{/* <PatternLines
 					id="lines"
 					height={6}
 					width={6}
@@ -91,7 +91,7 @@ export class MapChartWithTexture extends Component {
 					strokeWidth={1}
 					background="#F6F0E9"
 					orientation={["diagonal"]}
-				/>
+				/> */}
 				<Sphere stroke="#DDD" />
 				<Graticule stroke="#DDD" />
 				<Geographies geography={geoUrl} stroke="#FFF" strokeWidth={0.5}>

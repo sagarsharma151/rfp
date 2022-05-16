@@ -94,15 +94,7 @@ export class MapChartWithTexture extends Component {
 					scale: 80
 				}}
 			>
-				<PatternLines
-					id="lines"
-					height={6}
-					width={6}
-					stroke="#776865"
-					strokeWidth={1}
-					background="#F6F0E9"
-					orientation={["diagonal"]}
-				/>
+	
 				<Sphere stroke="#DDD" />
 				<Graticule stroke="#DDD" />
 				<Geographies geography={geoUrl} stroke="#FFF" strokeWidth={0.5}>
